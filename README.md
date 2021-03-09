@@ -1,5 +1,5 @@
 Dieses Plugin gehört nicht mir da der Besitzer 
-vom Plugin inaktiv ist seid 2018 wurde das von mir nur gefixt 
+vom Plugin ist inaktiv seid 2018.von mir wird das Plugin nur repariert was noch andauert.
 Dieses Plugin wird nicht von mir neu programmiert 
 
 This plugin does not belong to me because
