@@ -70,7 +70,7 @@ class SSSListener implements Listener{
 			return true;
 		}
 		$sign = $event->getLines();
-		if($sign{0}=='[SSS]'){
+		if($sign{0}=='{SSS}'){
 			if(!$this->main->isAdmin($player)){
 				$this->sendSSSmessage($player, TF::RED."You are not allowed to do that!");
 				$event->setLine(0,"[BLOCKED]");
@@ -122,7 +122,7 @@ class SSSListener implements Listener{
 					return;
 				}
 				$sign = $signTile->getText();
-				if($sign{0} == '[SSS]'){
+				if($sign{0} == '{SSS}'){
 					$address = null;
 					$port = null;
 					if($this->main->isAdmin($player)){
